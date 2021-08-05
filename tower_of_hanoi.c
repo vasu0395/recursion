@@ -31,8 +31,8 @@ void tower_of_hanoi(int n,char from,char to,char aux)
     return ;
 }
 int main() {
-	int n=3;
-	tower_of_hanoi(n,'A','C','B');
-	printf("Number of Step required %d" ,count);
-	return 0;
+    int n=3;
+    tower_of_hanoi(n,'A','C','B');
+    printf("Number of Step required %d" ,count);
+    return 0;
 }
