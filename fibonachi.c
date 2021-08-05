@@ -25,12 +25,12 @@ int main() {
     mat[1]=1;
     mat[2]=1;
     fibonacci(3);
-	for(int i=1;i<50;i++)
-	{
-	    // print every third element
-	    if(i%3==0)
-	    printf("%lld ",mat[i]);
-	}
-	return 0;
+    for(int i=1;i<50;i++)
+    {
+	// print every third element
+        if(i%3==0)
+	printf("%lld ",mat[i]);
+    }
+    return 0;
 }
 
